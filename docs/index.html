@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>作品集</title>
+<link href="ｓｔｙle.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+</head>
+
+<body>
+	<h1>私の好きなゲーム</h1>
+<p>私の好きなゲームを紹介します。</p>
+<div id="Tabs1">
+  <ul>
+    <li><a href="#tabs-1">PS4</a></li>
+    <li><a href="#tabs-2">アプリ</a></li>
+    <li><a href="#tabs-3">swicth</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>ドラゴンクエスト11</p>
+  <img src="DQ11　タイトル.jpg" width="512" height="288" alt=""/>  </div>
+  <div id="tabs-2">
+    <p>モンスターストライク</p>
+  <img src="モンスト　タイトル.png" width="512" height="271" alt=""/>  </div>
+  <div id="tabs-3">
+    <p>大乱闘スマッシュブラザーズSP</p>
+  <img src="スマブラSP　タイトル.jpg" width="512" height="288" alt=""/>  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+    </script>
+<p>詳細を紹介します。</p>
+<div id="Accordion1">
+  <h3><a href="#">ドラゴンクエスト11</a></h3>
+  <div id="acc-1">
+    <p>完成度の高いオープンワールドの世界を自由に旅することができます。メインストーリーのボリュームは結構あって全てクリアすると満足感が得られます。ミニゲームも多くてメインストーリーをクリアした後でも何時間でも遊ぶことができます。今までのドラゴンクエストシリーズをやっていた人ならより楽しめる要素が各所に散りばめられています。swicthでも今秋にドラゴンクエストSというタイトルで発売されます。変更点はキャラクターに声がつく、各キャラクターのミニストーリーが楽しめるなどです。少しでも興味を持っていただけたなら購入してみる事をオススメします。</p>
+  <img src="DQ11 3.jpg" width="384" height="216" alt=""/>  <img src="DQ11 2.jpg" width="382" height="216" alt=""/>  <img src="DQ11.jpg" width="384" height="216" alt=""/>  </div>
+  <h3><a href="#">モンスターストライク</a></h3>
+  <div id="acc-2">
+    <p>スマホを持っている人なら一度は見たことがあるであろうと思うくらい人気なゲームです。ゲームの内容は簡単にいうとおはじきです。ただおはじきと違うのがおはじき同士がぶつかると「友情コンボ」と呼ばれる様々な技がでます。それを駆使してステージクリアを目指すゲームです。楽しい部分が、こんなステージよく思いつくなというくらい様々なギミックの難しいステージが時間で配信されていて、難しいステージを何回もやり直しながらやっとクリアしたときの達成感が楽しいです。さらにマルチプレイにも対応していて近くの友達とわいわいプレイすることや専用のアプリを使えば遠くの人と一緒にプレイすることもできます。スマホを持っていれば無料で始められるのでぜひプレイしてみてはいかがしょうか。</p>
+  <img src="モンスト　アドゥブタ.png" width="275" height="487" alt=""/>  <img src="モンスト　ラウドラ.png" width="275" height="487" alt=""/>  <img src="モンスト　ヴィーラ.jpg" width="275" height="491" alt=""/>  <img src="モンスト　シュリンガーラ.png" width="275" height="494" alt=""/>  </div>
+  <h3><a href="#">大乱闘スマッシュブラザーズSP</a></h3>
+  <div id="acc-3">
+    <p>有名な対戦ゲームです。対戦ゲームでダメージを与えるとパーセンテージが溜まっていき、パーセンテージが高いほどステージの外に出されやすくなります。最終的に多くステージの外に出した人の勝利というルールです。このゲームの面白いところがキャラクターの操作性です。自由に操作することができるので、上手いトッププレイヤーはまるで自分の手足のように操作できます。e-sportsとしても有名で賞金つきの世界大会が開催されるほどなので、賞金狙いで始めてみてもいいかもしれません.
+	  </p>
+  <img src="スマブラSP ジョーカー.jpg" width="512" height="288" alt=""/>  <img src="スマブラSP 勇者.jpg" width="512" height="289" alt=""/>  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+    </script>
+	<p>ご視聴ありがとうございました。</p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@charset "utf-8";
+body h1 {
+    color: #E75A5D;
+}
+#Tabs1 #tabs-1 p {
+    color: #000000;
+}
+#Accordion1 {
+    min-height: 0px;
+}
+#acc-1 {
+    min-height: 10px;
+    max-height: 350px;
+}
+#acc-3 {
+    min-height: 10px;
+    max-height: 400px;
+}
